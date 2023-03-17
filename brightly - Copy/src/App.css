@@ -1,0 +1,274 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.mainContainer {
+  height: 100%;
+}
+.header {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ff6d6d;
+}
+.searchBar {
+  box-shadow: inset 1px 1px 5px gray;
+  border: none;
+  border-radius: 4px;
+  height: 1.5rem;
+  text-align: right;
+}
+.searchItems {
+  width: 12rem;
+  margin-right: 5rem;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+.headerLink {
+  width: 18%;
+  height: 100%;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+}
+.container {
+  width: 99%;
+  height: 100%;
+  padding: 5% 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.filterContainer {
+  height: fit-content;
+  width: 25%;
+  padding: 10px;
+}
+.productsContainer {
+  /* border: 1px solid rgb(143, 0, 0); */
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+}
+.showProduct {
+  height: 95%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(202, 202, 202);
+}
+.showProduct:hover {
+  background-color: #ffeaea;
+}
+.productImage {
+  width: 100%;
+  border-radius: 5px;
+}
+.showProductDetails {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+.addToCartBtn {
+  height: 1.8rem;
+  width: 6rem;
+  background-color: #f85454;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+  justify-self: end;
+}
+.addToCartBtn:hover {
+  background-color: #f68a8a;
+  color: black;
+}
+.productDescription {
+  display: flex;
+  gap: 1rem;
+}
+.solid {
+  margin-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.FiltersContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 3rem;
+}
+.mainShowProductsContainer {
+  padding: 2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.linkToSingle {
+  color: black;
+  text-decoration: none;
+}
+.showProductImg {
+  margin: 2rem;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px dashed gray;
+}
+.showProductDetails {
+  height: 80%;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.qtyBtn {
+  height: 2rem;
+  width: 2rem;
+}
+.showProductsBtns {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  margin-top: 5rem;
+}
+.showProductsContainer {
+  display: flex;
+}
+.categoryList {
+  width: 70%;
+  height: 2rem;
+}
+li {
+  cursor: pointer;
+}
+.linkToCart {
+  margin-left: auto;
+  margin-right: 25px;
+  text-decoration: none;
+  width: 2rem;
+}
+.searchBarContainer {
+  width: 18%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.searchBtn {
+  height: 1.6rem;
+  width: 3rem;
+  text-align: center;
+  background-color: #48d1ff;
+  border: none;
+  border-radius: 100px;
+  color: white;
+}
+.headerLinkItems {
+  color: rgb(254, 254, 255);
+}
+.mainCartContainer {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem 0;
+  justify-content: center;
+  gap: 1rem;
+}
+.cartContainer {
+  height: 9rem;
+  width: 50%;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(217, 217, 217);
+}
+.cartImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+.linkToShow {
+  height: 90%;
+  width: 30%;
+  border-radius: 8px;
+}
+.cartCounter {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  align-items: center;
+}
+.cartQtyBtns {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+.qtyAdd {
+  width: 3rem;
+}
+.cartPriceContainer {
+  height: 100%;
+}
+.cartDetailsContainer {
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.removeFromCartBtn {
+  height: 1.8rem;
+  width: 6rem;
+  background-color: #4a5ecf;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+}
+.removeFromCartBtn:hover {
+  background-color: #6e84fd;
+  color: black;
+}
+.allCartItem {
+  height: 1rem;
+  border-radius: 50px;
+}
+option {
+  height: 2rem;
+}
+.clearFilterBtn {
+  height: 1.5rem;
+  width: 5rem;
+  background-color: red;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.clearFilterBtn:hover {
+  background-color: rgb(254, 87, 87);
+  color: black;
+}
+.orderDetailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+}
